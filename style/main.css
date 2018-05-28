@@ -1,0 +1,102 @@
+#GreatDeals {
+  width: 1100px;
+}
+
+body {
+  margin-left: 200px;
+  background-color: #485770;
+}
+
+#contenu {
+  background-color: #FFFFFF;
+  height: 1200px;
+  width: 1100px;
+}
+
+h1 {
+  padding-left: 450px;
+}
+
+#contenu p {
+  width: 1000px;
+}
+
+#menu {
+  width: 1100px;
+  height: 100px;
+  background-color: #687a99;
+}
+
+#menu ul {
+  list-style-type: none;
+}
+
+#menu ul li {
+  display: inline;
+  margin-left: 200px;
+}
+
+#menu ul li a {
+  text-decoration: none;
+  padding: .2em 1em;
+  color: #fff;
+  background-color: #036;
+}
+
+#menu ul li a:hover {
+  color: #fff;
+  background-color: #369;
+}
+
+#GreatDeals h3 {
+  padding-left: 450px;
+}
+
+#LastOffer img {
+  float: left;
+  padding-right: 100px;
+}
+
+#GreatDeals ul {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  width: 220px;
+  padding-right: 5px;
+  border-style: solid;
+}
+
+#GreatDeals img {
+  padding-right: 15px;
+  float: right;
+}
+
+#travel {
+  width: 1100px;
+  text-align: justify;
+  padding-top: 200px;
+}
+
+#travel h3 {
+  padding-left: 50px;
+}
+
+#travel p {
+  padding-left: 20px;
+}
+
+#LastOffer img {
+  width: 50%;
+}
+
+#travel img {
+  width: 35%;
+  float: right;
+  clear: both;
+  padding-left: 60px;
+  padding-right: 20px;
+}
+
+#GreatDeals img {
+  width: 100%
+}
