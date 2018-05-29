@@ -1,0 +1,20 @@
+body {
+  background-color: #007BFF
+}
+
+.card {
+  text-align: center;
+}
+
+.card-body {
+  background-color: #413D99
+}
+
+.card h2 {
+  color: red;
+}
+
+.jumbotron, .jumbotronf {
+  color: #f8f9fa;
+  background-color: #FFA140;
+}
