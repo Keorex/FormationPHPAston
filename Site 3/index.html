@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="vendors/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <ul class="nav justify-content-center">
+    <li class="nav-item">
+      <h1>Chifumi</h1>
+    </li>
+  </ul>
+
+  <div class="card-deck">
+
+    <div class="card">
+      <i class="fa fa-hand-rock-o" style="font-size:96px"></i>
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-lg" onclick="FchoixJ('pierre')">Pierre</button>
+        <p class="card-text"><small class="text-muted">Chi</small></p>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <i class="fa fa-hand-paper-o" style="font-size:96px"></i>
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-lg" onclick="FchoixJ('feuille')">Feuille</button>
+        <p class="card-text"><small class="text-muted">Fu</small></p>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <i class="fa fa-hand-peace-o" style="font-size:96px"></i>
+      <div class="card-body">
+        <button type="button" class="btn btn-primary btn-lg" onclick="FchoixJ('ciseaux')">Ciseaux</button>
+        <p class="card-text"><small class="text-muted">Mi</small></p>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 id="compare" <h1 class="display-4"></h1>
+      <h1 id="result" <h1 class="display-4"></h1>
+      <h4>Joueur : <span id="PointJ">0</span></h4>
+      <h4>Ordi : <span id="PointU">0</span></h4>
+      <h6>Matchs nul : <span id="PointN">0</span></h6>
+
+
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+  <script src="js/dom.js"></script>
+</body>
+
+</html>
