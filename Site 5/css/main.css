@@ -1,0 +1,64 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Cousine', monospace;
+}
+*/
+
+body {
+  background: #FFF;
+}
+
+#center {
+  text-align: center;
+}
+
+.effectTypes {
+  color: 'black';
+}
+
+.magic {
+  margin: 0 auto;
+  width: 1000px;
+  height: 224px;
+  overflow: hidden;
+}
+
+#mario {
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  padding-top: 154px;
+}
+
+.effectTypes, .demo {
+  margin-top: 1500px;
+}
+
+#end {
+  position: absolute;
+  background-color: red;
+  margin-top: 154px;
+  height: 40px;
+  width: 15px;
+  margin-left: 3304px;
+}
+
+.coin, .coin2, .coin3 {
+  position: absolute;
+  height: 17px;
+  width: 17px;
+  padding-top: 164px;
+}
+
+.coin {
+  margin-left: 140px;
+}
+
+.coin2 {
+  margin-left: 170px;
+}
+
+.coin3 {
+  margin-left: 200px;
+}

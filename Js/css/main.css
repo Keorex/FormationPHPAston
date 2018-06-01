@@ -1,0 +1,13 @@
+#goku {
+  margin-left: 0;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  z-index: 2
+}
+
+#wave {
+  position: absolute;
+  margin-left: 0;
+  z-index: 1
+}
